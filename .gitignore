@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specifics
+dataset/
+models/*.keras
+!models/demo_model.keras
+outputs/
+static/uploads/*
+!static/uploads/.gitkeep
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+*.zip
+archive.zip
