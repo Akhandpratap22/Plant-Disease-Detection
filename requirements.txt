@@ -29,3 +29,6 @@ kaggle>=1.5.16
 
 # ─── Progress Bars (Optional but Nice) ──────────────
 tqdm>=4.65.0
+
+# ─── Deployment ─────────────────────────────────────
+gunicorn>=21.2.0
